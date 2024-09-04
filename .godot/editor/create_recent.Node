@@ -1,0 +1,14 @@
+AnimationPlayer
+Button
+Label
+TileMap
+ColorRect
+Control
+CanvasLayer
+Sprite2D
+CollisionShape2D
+Area2D
+Timer
+ProgressBar
+TextureProgressBar
+Node

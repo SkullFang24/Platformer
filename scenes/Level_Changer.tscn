@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bet5eg37qppak"]
+
+[ext_resource type="Script" path="res://scripts/Change_Level.cs" id="1_x5inh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cidw0"]
+size = Vector2(36, 47)
+
+[node name="Level_Changer" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_x5inh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(8, -4.5)
+shape = SubResource("RectangleShape2D_cidw0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

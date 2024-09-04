@@ -1,0 +1,15 @@
+res://scenes/Level1.tscn
+res://scenes/Level2.tscn
+res://scenes/GameFinishedScreen.tscn
+res://scenes/SpeediSlime.tscn
+res://scripts/Coin.cs
+res://scripts/SpeedSlimeKill.cs
+res://scripts/Player.cs
+res://scripts/Slime.cs
+res://scripts/GameManager.cs
+res://scripts/SpeediSlime.cs
+res://scripts/Change_Level.cs
+res://scripts/Killzone.cs
+res://scripts/Game_Finished.cs
+res://scripts/Replay.cs
+res://scripts/SlimeKill.cs
